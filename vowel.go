@@ -6,7 +6,7 @@ func main(){
 	fmt.Println("Enter character : ")
 	var input string
 	fmt.Scanln(&input)
-
+Scanln = Scanf
 	switch (input) {
 	case "a":
 		fmt.Print("Vowel")
